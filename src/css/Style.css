@@ -1,0 +1,375 @@
+/* General Styling*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+  margin-top: 0.4em;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.links-wrapper .try-it a:after {
+  font-family: "FontAwesome";
+  content: "\f14c";
+  padding-left: 10px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: #333;
+  font-size: 0.95em;
+  font-weight: 150;
+  height: 50px;
+  /*  */
+  /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px; */
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  /* padding: 4px 0; */
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/* div{
+    border:1px solid crimson;
+} */
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.covid {
+  background-color: rgba(0, 132, 255, 0.863);
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.covid a {
+  /* padding: 40px 0; */
+  color: #fff;
+}
+.covid a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.title-wraper {
+  font-size: 30px;
+  font-weight: bold;
+}
+.description-wrapper {
+  font-size: 30px;
+  padding: 10px 0;
+}
+.Amanda {
+  padding-top: 300px;
+  color: #fff;
+}
+.Watch a {
+  color: #fff;
+}
+/* mobile first  */
+
+/* mobile second section */
+.second-hightlight-wrapper {
+  background-image: url("../images/iphone_12m__small_2x.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  /* background-color: #fbfbfd; */
+  text-align: center;
+  padding: 30px 49px 20px;
+  /* color: #fff; */
+  /* margin-bottom: 10px; */
+}
+/* Third section  */
+.third-hightlight-wrapper {
+  background-image: url("../images/iphone-black12m__small_2x.jpg");
+  height: 580px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* background-size: 200px; */
+  text-align: center;
+  padding: 30px 30px 20px;
+  background-color: black;
+}
+.third-hightlight-wrapper .title-wraper {
+  /* font-size: 25px;
+	font-weight:500;*/
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.third-hightlight-wrapper .description-wrapper {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  color: #ffffff;
+}
+
+/* fourth section */
+/* 
+.fourth-heghlight-wrapper{
+    background-image: url("../images/hero_apple_card_medium_2x.jpg");
+    height: 500px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size:900px;
+	   	 margin-top: 15px;
+	 margin-bottom: 15px;
+	 	 background-color: lawngreen;
+	
+} */
+.fourth-heghlight-wrapper {
+  background-color: #fbfbfd;
+}
+.card img {
+  width: 100%;
+}
+/* fifth section */
+.fifth-heghlight-wrapper {
+  margin-top: 20px;
+}
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../images/hero_small_2x.jpg");
+  background-color: #fbfbfd;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: 700px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 580px;
+  /* background: #fbfbfd; */
+}
+.fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../images/watch-large_2x.jpg");
+  height: 580px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-color: black;
+  text-align: center;
+  padding-top: 35px;
+  /* padding: 65px 20px; */
+  color: #fff;
+  /* max-width: 100%; */
+}
+/* sixth section */
+.sixth-heghlight-wrapper {
+  margin-top: 10px;
+}
+.sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../images/macbook_air___large_2x.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-color: black;
+  color: #fff;
+}
+.sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../images/tile__fittnes_large_2x\ \(1\).jpg");
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 900px;
+}
+
+/* seventh section */
+.seventh-heghlight-wrapper {
+  margin-top: 10px;
+}
+.seventh-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../images/tile_square_small_2x.jpg");
+  height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+.seventh-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../images/promo__large_2x.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* media query */
+@media (max-width: 720px) {
+  .navbar-nav {
+    background-color: #333;
+    flex-flow: column nowrap;
+    position: fixed; 
+    right: 0;
+    width: 300px;
+    /* padding-top: 3.5rem; */
+  }
+  .third-hightlight-wrapper {
+    background-size: 200px;
+  }
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  footer .plus h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 10px;
+  }
+  footer .cross h3:after {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    padding-left: 10px;
+    position: absolute;
+    right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .second-hightlight-wrapper {
+    background-image: url(../images/iphone_12__mediumtall_2x.jpg);
+    height: 550px;
+    /* background-position:center;
+		background-repeat: no-repeat;
+		background-size: 800px;
+		
+		text-align: center;
+		padding: 30px 49px 20px; */
+  }
+  /* Third section  */
+  .third-hightlight-wrapper {
+    background-image: url("../images/iphoneblack_12_lar_2x.jpg");
+    height: 580px;
+    background-size: 2000px;
+    background-position: center;
+    /* 
+	background-repeat: no-repeat;
+ 
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff; */
+  }
+
+  /* fourth section */
+
+  /* .fourth-heghlight-wrapper{ */
+  /* background-image: url(../images/hero_apple_card_medium_2x.jpg);
+    height: 580px; */
+  /* background-position: center;
+	background-repeat: no-repeat;
+  background-size:contain; 	
+}  */
+  /* .fourth-heghlight-wrapper .terms {
+	padding-bottom: 5000px;
+} */
+  /* fifth section */
+  .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../images/hero_large_2x.jpg");
+    height: 580px;
+    background-size: 450px;
+    background-position: center;
+  }
+}
